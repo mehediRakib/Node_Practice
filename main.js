@@ -55,5 +55,12 @@
 // }
 // console.log("Using async function")
 
+const http=require('http');
+const server=http.createServer((req,res)=>{
+    res.end("This is a trial server");
+})
+server.listen(8000,()=>{
+    console.log("allah is almighty");
+});
 
 
